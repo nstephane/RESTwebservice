@@ -4,31 +4,30 @@ This is a simple REST webservice implemented in python, using the Flask Framewor
 # Runtime information
 In order to run locally, you require the following software and packages
 - Python 3.7.3
-- Flask 1.0.3
-- Werkzeug 0.15.4
+- Flask
 - Flask-Restful
 
 # API End-Points Details
 The API consist of the following different end-points
 
-## 1- closestToZero: /close/
+### 1- closestToZero (GET): /close/
     Implements an API method that returns the closest to zero value, when supplied by an array parameter. If two of the numbers are equally close to zero, consider the positive number to be closer to zero.
     
-    
+    ![Alt text](/relative/path/to/images/endpoint1_test_result.jpg?raw=true "Optional Title")
 
-## 2- sumOfNumbersFor: /sumof-for/
+### 2- sumOfNumbersFor (GET): /sumof-for/
     Computes the sum of the numbers in a given list using for loop
 
-## 3- sumOfNumbersWhile: /sumof-while/
+### 3- sumOfNumbersWhile (GET): /sumof-while/
     Computes the sum of the numbers in a given list using While loop
 
-## 4- sumOfNumbersRecursion: /sumof-recursion/
+### 4- sumOfNumbersRecursion (GET): /sumof-recursion/
     Computes the sum of the numbers in a given list using recursion
 
-## 5- getFibonacciAt: /FibonacciAt/
+### 5- getFibonacciAt (GET): /FibonacciAt/
     Returns the nth value from the list of the first 100 Fibonacci numbers given n as input
 
-## 6- transformPerson: /transformperson/
+### 6- transformPerson (POST): /transformperson/
     Will fulfil the following transformation with the respective input and output message samples provided.
 
     Inputs Sample (json):-
