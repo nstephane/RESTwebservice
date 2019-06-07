@@ -13,7 +13,7 @@ The API consist of the following different end-points
 ### 1- closestToZero (GET): /close/
     Implements an API method that returns the closest to zero value, when supplied by an array parameter. If two of the numbers are equally close to zero, consider the positive number to be closer to zero.
     
-![Alt text](/relative/path/to/images/endpoint1_test_result.jpg?raw=true "Optional Title")
+![Alt text](/images/endpoint1_test_result.jpg?raw=true "Optional Title")
 
 ### 2- sumOfNumbersFor (GET): /sumof-for/
     Computes the sum of the numbers in a given list using for loop
