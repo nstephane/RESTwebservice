@@ -7,6 +7,13 @@ In order to run locally, you require the following software and packages
 - Flask
 - Flask-Restful
 
+In order to run this:
+- Install Python 3.7.3 on your machine
+- After installing Python, go to the command line and run "pip install -r requirements.txt"
+- This will install the depencies of the project locally
+- To run the API run following command "python restApi.py" on the command line.
+- You can download Postman to test the API. 
+
 # API End-Points Details
 The API consist of the following different end-points
 
