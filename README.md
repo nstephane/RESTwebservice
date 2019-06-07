@@ -13,6 +13,8 @@ The API consist of the following different end-points
 
 ## 1- closestToZero: /close/
     Implements an API method that returns the closest to zero value, when supplied by an array parameter. If two of the numbers are equally close to zero, consider the positive number to be closer to zero.
+    
+    
 
 ## 2- sumOfNumbersFor: /sumof-for/
     Computes the sum of the numbers in a given list using for loop
