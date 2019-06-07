@@ -8,25 +8,25 @@ In order to run locally, you require the following software and packages
 - Werkzeug 0.15.4
 - Flask-Restful
 
-#API End-Points Details
+# API End-Points Details
 The API consist of the following different end-points
 
-1- closestToZero: /close/
+## 1- closestToZero: /close/
     Implements an API method that returns the closest to zero value, when supplied by an array parameter. If two of the numbers are equally close to zero, consider the positive number to be closer to zero.
 
-2- sumOfNumbersFor: /sumof-for/
+## 2- sumOfNumbersFor: /sumof-for/
     Computes the sum of the numbers in a given list using for loop
 
-3- sumOfNumbersWhile: /sumof-while/
+## 3- sumOfNumbersWhile: /sumof-while/
     Computes the sum of the numbers in a given list using While loop
 
-4- sumOfNumbersRecursion: /sumof-recursion/
+## 4- sumOfNumbersRecursion: /sumof-recursion/
     Computes the sum of the numbers in a given list using recursion
 
-5- getFibonacciAt: /FibonacciAt/
+## 5- getFibonacciAt: /FibonacciAt/
     Returns the nth value from the list of the first 100 Fibonacci numbers given n as input
 
-6- transformPerson: /transformperson/
+## 6- transformPerson: /transformperson/
     Will fulfil the following transformation with the respective input and output message samples provided.
 
     Inputs Sample (json):-
@@ -58,6 +58,8 @@ The API consist of the following different end-points
             "gender": "Male", 
             "ip_address": "67.76.188.26" 
             }]
+
+            
     Output Sample (xml):- 
         <?xml version="1.0" ?>
             <response>
